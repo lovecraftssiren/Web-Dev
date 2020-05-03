@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .display-bar{
   width: 400px;
   height: 80px;
@@ -15,11 +19,15 @@
 .calc-button {
   background-color: #d8d9db;
   height: 100px;
-  width: 24.7%;
+  width: 25%;
   border: solid black 1px;
   font-size: 40px;
   cursor: pointer;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .calc-button:hover {
@@ -39,9 +47,6 @@
   background-color: #dd8d37;
 }
 
-.text{
-  margin-top: 25px;
-}
 
 
 .button-clear{

@@ -1,14 +1,24 @@
 
 
 
-const paragraph = document.querySelector('.display-text');
-const all_buttons = document.querySelectorAll('.row-buttons');
+const displayText = document.querySelector('.display-text');
+const allButtons = document.querySelectorAll('.row-buttons');
 
 
-for (let i = 0; i< (all_buttons.length);i++ ){
-  console.log(1);
+for (let i = 0; i< (allButtons.length);i++ ){
 
-  all_buttons[i].addEventListener('click', function(event) {
-      paragraph.innerText = event.target.innerText;
+  allButtons[i].addEventListener('click', function(event) {
+    if(event.target.className == 'calc-button'){
+      if (event.target.innerText[0] == 'C'){
+        console.log(event.target.innerText);
+        displayText.innerText[0] = 'C';
+      }
+    }
+      /*else{
+        displayText.innerText = event.target.innerText;
+      }*/
+
+
+
   });
 }
