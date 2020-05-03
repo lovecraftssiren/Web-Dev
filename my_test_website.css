@@ -1,0 +1,66 @@
+/*CSS Document */
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  padding: 10px;
+}
+
+.main_title{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  font-size: 40px
+}
+
+.grid{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.article_box{
+  display: flex;
+  border: 1px solid black;
+  height: 500px;
+  flex-direction: column;
+}
+
+.article_title{
+  text-align: center;
+  font-style: italic;
+  font-size: 10;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.article_text{
+  padding: 10px;
+  flex: 1;
+}
+
+.twenty-five{
+  width: 25%;
+}
+
+.seventy-five{
+  width: 75%;
+}
+
+.fifty{
+  width: 50%;
+}
+
+.tab_grid{
+  height: 100%;
+  width: 100%
+}
+.tab{
+  border: 1px solid black;
+  height: 20%;
+  padding: 3.5%;
+  margin: 0px;
+}

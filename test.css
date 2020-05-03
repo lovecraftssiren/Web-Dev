@@ -1,0 +1,54 @@
+/*CSS Document */
+
+/* TIPS:
+ *Should style on classes for most the code, only tags for consistency
+ *Be careful about the cascade
+ *Never style by ID or !important
+ *Very rarely need float
+ */
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+  font-size: 60px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: uppercase;
+  border: 5px solid pink;
+}
+.branding {
+  color: green;
+}
+p {
+  color: black;
+}
+.hover-example {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  color: white;
+}
+.hover-example:hover {
+  background-color: crimson;
+  width: 300px;
+  height: 100px;
+}
+
+.ex-box {
+    border: 3px solid #aaa;
+    background-color: #eee;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+  .ex-box:last-of-type {
+    clear: right;
+  }

@@ -1,0 +1,99 @@
+/*CSS Document */
+
+.main-brand{
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+  font-family: cursive;
+
+  /* This is below is the same as... */
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  /* This! */
+  marign: 60px 0;
+
+  /* Helpful to use borders */
+  border: 1px solid black;
+}
+
+.row{
+  display:flex;
+  align-items: stretch;
+}
+
+.story{
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.story-title{
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.story-img{
+  width: 100%;
+}
+
+.story-text{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.quarter{
+  /* Same */
+  width: 25%;
+  /* Same */
+  flex-grow: 1;
+}
+
+.half{
+  /* Same */
+  width: 50%;
+  /* Same */
+  flex-grow: 2;
+}
+
+.three-quarter{
+  width: 75%
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  list-style: none;
+
+}
+
+.nav-item{
+  width: 100%;
+  flex:1;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-size: 30px;
+  color: #666;
+  font-weight: bold;
+  font-family: Arial;
+
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: #666;
+}
+
+.nav-item a:hover{
+  text-decoration: underline;
+}
+
+.nav-item:nth-child(1) { background-color: #999; }
+.nav-item:nth-child(2) { background-color: #888; }
+.nav-item:nth-child(3) { background-color: #777; }
+.nav-item:nth-child(4) { background-color: #666; }
+.nav-item:nth-child(5) { background-color: #555; }
